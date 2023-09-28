@@ -1,0 +1,28 @@
+##We integrated two versions of demo. One is based on jupyter notebook(begin with nb_*, end with *.ipynb), another is traditional python(begin with py_*, end with *.py).
+
+#You can choose to run any version of demo, but:
+#Each ipynb files include 6 Training parts, you can run or stop any part you want, and finally can run nb_Tensorboard.ipynb or py_pltResult.py for results.
+#Each py files include 4 Training parts for each figure, you have to run thought all 4 Training parts until it is finished, and finally can run nb_Tensorboard.ipynb or py_pltResult.py for results.
+
+
+
+##Install pytorch
+
+#Please follow the instruction on PyTorch official website https://pytorch.org/get-started/locally/
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+#OR
+
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
+
+
+##Other Requirments
+
+pip install python>=3.8 tensorboard matplotlib numpy
+
+#python>=3.8
+#tensorboard
+#matplotlib
+#numpy
